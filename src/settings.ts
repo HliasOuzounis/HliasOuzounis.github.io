@@ -29,7 +29,7 @@ export const template = {
 	menu_left: false,
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
+	darkTheme: 'night', // Select one of the Daisy UI Themes or create your own (night)
 	excerptLength: 200,
 	postPerPage: 5,
 	projectsPerPage: 5,
