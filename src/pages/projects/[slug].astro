@@ -2,7 +2,6 @@
 import Layout from '@/layouts/Layout.astro'
 import {template} from '@/settings'
 import {getCollection, render} from 'astro:content'
-import { RESEARCH_ICONS } from '@/data/researchIcons';
 
 export async function getStaticPaths(): Promise<Array<{ params: { slug: string }, props: { post: any } }>> {
     const projectEntries = await getCollection("projects");
@@ -92,7 +91,8 @@ const { Content } = await render(post);
          prose-ol:list-decimal prose-ol:pl-6
          prose-li:mb-2
          prose-img:rounded-lg prose-img:my-8'
-        >
+		style="display: flex; flex-direction: column; align-items: center;"
+		></div>
                 <Content />
 			</div>
 		</article>

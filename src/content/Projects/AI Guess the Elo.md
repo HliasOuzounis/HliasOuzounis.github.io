@@ -3,7 +3,7 @@ title: "AI Guess the Elo"
 date: "2023-10"
 description: "Leveraging machine learning to estimate chess player ratings by analyzing a game."
 tags: ["Machine Learning", "LSTM", "Chess", "Python",]
-image: "/projects/triptych.jpg"
+image: "/projects/guess-the-elo/architecture.png"
 link: "https://github.com/HliasOuzounis/Ai-Guess-the-elo"
 ---
 
