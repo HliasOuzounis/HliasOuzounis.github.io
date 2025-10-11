@@ -1,63 +1,47 @@
 export const experiences = [
 	{
-		company: '',
-		time: '',
-		title: '',
-		location: '',
-		description: '',
+		company: 'Synopsys',
+		time: 'Jun 2025 - Present',
+		title: 'Machine Learning R&D in Optics, Intern',
+		location: 'Remote',
+		description: 'Researched and implemented machine learning models to speed up Monte Carlo simulations tolerancing.',
 	},
-	// {
-	// 	company: 'Radium Institute (Institut du Radium)',
-	// 	time: '1914 - 1934',
-	// 	title: 'Director',
-	// 	location: 'Paris, France',
-	// 	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
-	// },
 ];
 
 export const education = [
 	{
-		school: '',
-		time: '',
-		degree: '',
-		location: '',
-		description: '',
+		school: 'University of Patras',
+		time: '2020 - 2025',
+		degree: 'Diploma in Electrical and Computer Engineering (MSc equivalent)',
+		location: 'Patra, Greece',
+		description: 'GPA: 8.75/10.0',
 	},
-	// {
-	// 	school: 'University of Paris',
-	// 	time: '1891 - 1895',
-	// 	degree: 'Master’s in Physics and Mathematics',
-	// 	location: 'Paris, France',
-	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+	{
+		school: 'Moraitis School',
+		time: '2017 - 2020',
+		location: 'Athens, Greece',
+		description: 'Attended with academic scholarship',
+	},
 ];
 
 export const skills = [
 	{
-		title: '',
-		description: '',
+		title: 'Machine Learning',
+		description: 'Proficient with PyTorch, TensorFlow, and scikit-learn. Experience with modern architectures: CNNs, LSTMs, and Transformers.',
 	},
-	// {
-	// 	title: 'Experimental Techniques',
-	// 	description: 'Spectroscopy, Isolation of Radioactive Elements, Radiation Measurement',
-	// },
+	{
+		title: 'Software Development',
+		description: 'Skilled in Python, JavaScript, and C++.',
+	},
 ];
 
 export const publications = [
-	{
-		title: '',
-		authors: '',
-		journal: '',
-		time: '',
-		link: '',
-		abstract: '',
-	},
 	// {
-	// 	title: 'The Radiation of Uranium Compounds',
-	// 	authors: 'Marie Curie',
-	// 	journal: 'Comptes Rendus de l’Académie des Sciences',
-	// 	time: '1898',
-	// 	link: '#',
-	// 	abstract: 'Early research leading to the identification of uranium’s radioactive properties.',
+	// 	title: '',
+	// 	authors: '',
+	// 	journal: '',
+	// 	time: '',
+	// 	link: '',
+	// 	abstract: '',
 	// },
 ];

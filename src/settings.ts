@@ -6,8 +6,8 @@ export const profile = {
 	institute: '',
 	author_name: 'Ouzounis I.', // Author name to be highlighted in the papers section
 	research_areas: [
-		{ title: 'Geometric Deep Learning', description: 'Utilizing symmetries of data to improve AI', field: 'Computer Science' },
-		{ title: 'Computer Vision', description: 'Allowing machines to interpret and understand the visual world', field: 'Computer Science' },
+		{ title: 'Geometric Deep Learning', description: 'Building efficient AI algorithms using symmetries in data.', field: 'Computer Science' },
+		{ title: 'Computer Vision', description: 'Researching methods for machines to interpret and understand visual information.', field: 'Computer Science' },
 	],
 }
 
@@ -32,6 +32,7 @@ export const template = {
 	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
+	projectsPerPage: 5,
     base: '' // Repository name starting with /
 }
 
@@ -40,3 +41,10 @@ export const seo = {
 	default_description: 'Astro Academia is a template for academic websites.',
 	default_image: '/images/astro-academia.png',
 }
+
+export const current_projects = [
+      {
+        title: "Accelerating Diffusion Models for Image-Conditioned Point Cloud Generation",
+        description: "Diploma thesis exploring different techniques to speed up the generation process for 3D point clouds. Currently being adapted into a paper."
+      },
+]

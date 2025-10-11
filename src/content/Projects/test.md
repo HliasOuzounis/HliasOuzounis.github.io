@@ -3,7 +3,7 @@ title: "Deep Learning Visualizer"
 date: "2023-10"
 description: "An interactive tool to visualize how neural networks learn."
 tags: ["JavaScript", "Machine Learning", "D3.js", "TensorFlow.js"]
-image: "/images/projects/dlv.png"
+image: "/projects/triptych.jpg"
 link: "https://github.com/yourname/deep-learning-visualizer"
 ---
 
