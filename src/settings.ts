@@ -1,19 +1,22 @@
+import { file } from "astro/loaders"
+
 export const profile = {
-	fullName: 'Your Name',
+	fullName: 'Ilias Ouzounis',
 	title: '',
 	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	author_name: 'Ouzounis I.', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		{ title: 'Geometric Deep Learning', description: 'Utilizing symmetries of data to improve AI', field: 'Computer Science' },
+		{ title: 'Computer Vision', description: 'Allowing machines to interpret and understand the visual world', field: 'Computer Science' },
 	],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
-	x: 'https://www.x.com/',
-	github: '',
+	email: 'iliouzoun@outlook.com',
+	linkedin: 'www.linkedin.com/in/ilias-ouzounis-1343722b9',
+	x: '',
+	github: 'https://github.com/HliasOuzounis',
 	gitlab: '',
 	scholar: '',
 	inspire: '',
