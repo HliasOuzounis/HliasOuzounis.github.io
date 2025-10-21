@@ -5,6 +5,7 @@ description: "Leveraging machine learning to estimate chess player ratings by an
 tags: ["Machine Learning", "LSTM", "Chess", "Python",]
 image: "/projects/guess-the-elo/architecture.png"
 link: "https://github.com/HliasOuzounis/Ai-Guess-the-elo"
+priority: 1
 ---
 
 An attempt at creating a neural network to guess a player's ELO rating based on their chess games/moves.

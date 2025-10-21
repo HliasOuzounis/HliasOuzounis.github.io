@@ -5,6 +5,7 @@ description: "An interactive OpenGL project showcasing various rendering styles.
 tags: ["OpenGL", "C++", "GLSL", "Shaders"]
 image: "/projects/art-gallery/bedroom.jpg"
 link: "https://github.com/HliasOuzounis/Art_Gallery"
+priority: 2
 ---
 
 An OpenGL project in C++ that creates an interactive art gallery environment where users can explore different rooms, each showcasing a unique rendering style using GLSL shaders. The rooms depict an abstract reconstruction of Van Gogh's famous *Bedroom in Arles*.

@@ -28,23 +28,23 @@ export const template = {
 	website_url: 'https://localhost:4321', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
 	menu_left: false,
 	transitions: true,
-	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
+	lightTheme: 'cupcake', // Select one of the Daisy UI Themes or create your own
+	darkTheme: 'night', // Select one of the Daisy UI Themes or create your own (night)
 	excerptLength: 200,
 	postPerPage: 5,
 	projectsPerPage: 5,
-    base: '' // Repository name starting with /
+	base: '',
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
+	default_title: 'ilias Ouzounis',
+	default_description: 'My personal page as an aspiring ML researcher.',
 	default_image: '/images/astro-academia.png',
 }
 
 export const current_projects = [
-      {
-        title: "Accelerating Diffusion Models for Image-Conditioned Point Cloud Generation",
-        description: "Diploma thesis exploring different techniques to speed up the generation process for 3D point clouds. Currently being adapted into a paper."
-      },
+	{
+		title: "Accelerating Diffusion Models for Image-Conditioned Point Cloud Generation",
+		description: "Diploma thesis exploring different techniques to speed up the generation process for 3D point clouds. Currently being adapted into a paper."
+	},
 ]
