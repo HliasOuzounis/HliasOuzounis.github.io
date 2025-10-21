@@ -33,6 +33,7 @@ export const template = {
 	excerptLength: 200,
 	postPerPage: 5,
 	projectsPerPage: 5,
+	base: '',
 }
 
 export const seo = {
