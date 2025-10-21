@@ -5,6 +5,7 @@ description: "Recognizing American Sign Language gestures in real time using a w
 tags: ["Machine Learning", "CNN", "OpenCV", "TensorFlow"]
 image: "/projects/asl-recognition/asl.jpg"
 link: "https://github.com/HliasOuzounis/Art_Gallery"
+priority: 3
 ---
 
 The aim of this project was to recognize American Sign Language (ASL) gestures in real-time using a webcam.

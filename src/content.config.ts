@@ -3,6 +3,7 @@ import { defineCollection, z } from "astro:content";
 
 // 2. Import loader(s)
 import { glob } from "astro/loaders";
+import { profile } from "./settings";
 
 // 3. Define your collection(s)
 const blog = defineCollection({
@@ -30,9 +31,9 @@ const projects = defineCollection({
         tags: z.array(z.string()).optional(),
         image: z.string().optional(),
         link: z.string().url().optional(),
+        priority: z.number().optional(),
     }),
 });
-
 
 // 4. Export a single `collections` object to register your collection(s)
 export const collections = { blog , projects };

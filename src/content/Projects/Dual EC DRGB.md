@@ -5,6 +5,7 @@ description: "Analyzing the Dual EC DRBG algorithm and its potential backdoor."
 tags: ["Elliptic Curves", "Cryptography", "Python", "Group Theory"]
 image: "/projects/dual-ec-drbg/dual-ec-drbg.png"
 link: "https://github.com/HliasOuzounis/Dual-EC-DRBG-Analysis"
+priority: 2
 ---
 
 This project is an analysis of the DUAL EC DRGB algorithm proposed by NIST in 2006. Despite the backlash and the possibility of the existance of a backdoor, the algorihtm was standardized until 2014 when it was finally removed from the NIST standards.

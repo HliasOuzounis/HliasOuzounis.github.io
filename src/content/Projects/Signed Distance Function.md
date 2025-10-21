@@ -5,6 +5,7 @@ description: "Computing a signed distance function (SDF) for a 3D mesh and detec
 tags: ["OpenGL", "Python", "SDF", "Ray Marching"]
 image: "/projects/sdf/sdf.png"
 link: "https://github.com/HliasOuzounis/Signed-Distance-Function"
+priority: 2
 ---
 
 The aim of this project was to compute a signed distance function (SDF) for a 3D mesh and use it for collision detection using ray marching. 

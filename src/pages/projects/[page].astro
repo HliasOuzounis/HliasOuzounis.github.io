@@ -3,6 +3,7 @@ import Pagination from "@/components/ui/Pagination.astro";
 import Layout from "@/layouts/Layout.astro";
 import { trimExcerpt } from "@/lib/utils";
 import { template } from "@/settings";
+import { promiseWithResolvers } from "astro/runtime/server/render/util.js";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths({
@@ -17,10 +18,11 @@ export async function getStaticPaths({
             description: post.data.description,
             image: post.data.image,
             tags: post.data.tags,
+            priority: post.data.priority ?? 9999,
             slug: `${template.base}/projects/${post.id}`,
         }))
         .sort(
-            (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+            (a, b) => a.priority - b.priority
         );
 
     return paginate(posts, {
